@@ -1,3 +1,4 @@
+![Scully Publish to GH-Pages](https://github.com/appselskapet/matplanen/workflows/Scully%20Publish%20to%20GH-Pages/badge.svg)
 # NgFoodplan
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.5.
