@@ -14,7 +14,7 @@ export class AuthService {
     domain: 'dev-e6rj7ehd.eu.auth0.com',
     responseType: 'token',
 //    redirectUri: 'http://localhost:4200/',
-    redirectUri: 'http://appselskapet.no/matplanen/',
+    redirectUri: 'https://appselskapet.no/matplanen/',
     scope: 'openid'
   });
 
