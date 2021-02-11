@@ -13,7 +13,8 @@ export class AuthService {
     clientID: 'o1G9ETOxDui4rBqbknU9Hdw1FMN3d2wK',
     domain: 'dev-e6rj7ehd.eu.auth0.com',
     responseType: 'token',
-    redirectUri: 'http://localhost:4200/',
+//    redirectUri: 'http://localhost:4200/',
+    redirectUri: 'http://appselskapet.no/matplanen/',
     scope: 'openid'
   });
 
