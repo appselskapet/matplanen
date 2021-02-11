@@ -1,0 +1,45 @@
+  .card {
+    word-break: break-word;
+    padding: 5px;
+    width: 80%;
+
+    &-settings {
+      @extend .card;
+      width: 40%;
+    }
+
+    &-dish {
+      @extend .card;
+      width: 60%;
+    }
+
+  }
+  
+  .example-container {
+    display: flex;
+    flex-direction: column;
+    max-height: 500px;
+    min-width: 80%;
+    max-width: 80%;
+  }
+  
+  .day-of-week {
+    word-break: break-word;
+    max-width: 80%;
+    margin: auto;
+    padding: 5px;
+  }
+
+  .mat-table {
+    overflow: auto;
+    max-height: 500px;
+  }
+  
+  a {
+    cursor: pointer;
+  }
+
+  .icon-food {
+    display: inline-flex;
+    vertical-align: middle;
+  }

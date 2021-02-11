@@ -1,0 +1,133 @@
+<div>
+  <div class="container">
+    <br>
+    <div flex fxLayout="column" fxLayoutAlign="start center">
+      <mat-card class="card">
+        <mat-card-title fxLayout.gt-xs="row" fxLayout.xs="column">
+          Matplan
+          <a (click)="mixUpTheDishesForTheWeek()" type="button">
+            <mat-icon class="icon-food">shuffle</mat-icon>
+          </a>
+        </mat-card-title>
+        <mat-card-subtitle>
+          Trykk for å mixe!
+        </mat-card-subtitle>
+        <mat-card-content>
+          <div fxLayout="row" fxLayoutAlign="start center" class="day-of-week"
+            *ngFor="let dayOfWeek of dishesOfTheWeek">
+            <mat-card class="card mat-elevation-z8">
+              <mat-card-title>
+                <h2>
+                  {{ dayOfWeek.day }}
+                  <a (click)="mixUpTheDishForTheDay(dayOfWeek.day)" type="button">
+                    <mat-icon class="icon-food">shuffle</mat-icon>
+                  </a>
+                </h2>
+              </mat-card-title>
+
+              <div fxLayout="row" fxLayoutGap=5px>
+              <mat-card class="card-dish">
+                <mat-card-title>
+                  <h2 *ngIf="!dayOfWeek.isLeftOvers">{{ dayOfWeek.dish }}</h2>
+                  <h2 *ngIf="dayOfWeek.isLeftOvers">Rester</h2>
+                </mat-card-title>
+              </mat-card>
+
+              <mat-card class="card-settings ">
+                <mat-card-content>
+                  <mat-checkbox (change)="setDayToLeftOvers(dayOfWeek.day, $event.checked)">Rester</mat-checkbox><br>
+                  <button mat-stroked-button (click)="findDish(dayOfWeek.day, 'meat')">Kjøtt</button>
+                  <button mat-stroked-button (click)="findDish(dayOfWeek.day, 'fish')">Fisk</button>
+                  <button mat-stroked-button (click)="findDish(dayOfWeek.day, 'vegetarian')">Vegetar</button>
+                </mat-card-content>
+              </mat-card>  
+
+            </div>
+            </mat-card>
+          </div>
+        </mat-card-content>
+      </mat-card>
+    </div>
+
+    <br>
+    <div class="container">
+      <div fxLayout="column" fxLayoutGap="20px" fxLayout.gt-md="row" fxLayoutAlign="space-around center"
+        class="content">
+        <div class="blocks" *ngIf="auth.isAuthenticated()">
+          <button button="submit" mat-raised-button color="primary" (click)="openDialog()">
+            <mat-icon>add</mat-icon> Add Post
+          </button>
+        </div>
+        <div class="blocks">
+          <a button mat-raised-button color="primary" (click)="auth.login()" *ngIf="!auth.isAuthenticated()">
+            <mat-icon>input</mat-icon>Login to Add Post
+          </a>
+        </div>
+      </div>
+    </div>
+    <br>
+    <div class="container" *ngIf="selectedPost">
+      <div fxLayout="row" fxLayoutAlign="center center" class="content">
+        <mat-card class="card">
+          <mat-card-header fxLayout.gt-xs="row">
+            <mat-card-title>{{selectedPost.title}}</mat-card-title>
+          </mat-card-header>
+          <mat-card-content>
+            <div class="example-container mat-elevation-z8">
+              <p>
+                {{ selectedPost.body}}
+              </p>
+            </div>
+          </mat-card-content>
+          <mat-card-actions>
+            <a (click)="deletePost(selectedPost.position)" type="button">
+              <mat-icon class="icon">delete</mat-icon>
+            </a>
+          </mat-card-actions>
+        </mat-card>
+      </div>
+    </div>
+    <br>
+    <div class="container">
+      <div fxLayout="row" fxLayoutAlign="center center" class="content">
+        <mat-card class="card">
+          <mat-card-title fxLayout.gt-xs="row" fxLayout.xs="column">
+            <h3>Recent Posts</h3>
+          </mat-card-title>
+          <mat-card-content>
+            <div class="example-container mat-elevation-z8">
+              <mat-table #table [dataSource]="dataSource">
+                <ng-container matColumnDef="date_posted">
+                  <mat-header-cell *matHeaderCellDef> Date Posted </mat-header-cell>
+                  <mat-cell *matCellDef="let element"> {{element.date_posted | date: 'd/M/y'}} </mat-cell>
+                </ng-container>
+                <ng-container matColumnDef="title">
+                  <mat-header-cell *matHeaderCellDef> Title </mat-header-cell>
+                  <mat-cell *matCellDef="let element">
+                    <a (click)="viewPostDetails(element)">
+                      {{element.title}}
+                    </a>
+                  </mat-cell>
+                </ng-container>
+                <ng-container matColumnDef="category">
+                  <mat-header-cell *matHeaderCellDef> Category </mat-header-cell>
+                  <mat-cell *matCellDef="let element"> {{element.category}} </mat-cell>
+                </ng-container>
+                <ng-container matColumnDef="delete">
+                  <mat-header-cell *matHeaderCellDef></mat-header-cell>
+                  <mat-cell *matCellDef="let element">
+                    <a (click)="deletePost(element.position)" type="button">
+                      <mat-icon class="icon">delete</mat-icon>
+                    </a>
+                  </mat-cell>
+                </ng-container>
+                <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+                <mat-row *matRowDef="let row; columns: displayedColumns;"></mat-row>
+              </mat-table>
+            </div>
+          </mat-card-content>
+        </mat-card>
+      </div>
+    </div>
+  </div>
+</div>
