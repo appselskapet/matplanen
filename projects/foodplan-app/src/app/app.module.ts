@@ -12,6 +12,7 @@ import { DataService } from './data/data.service';
 import { AuthService } from "./auth.service";
 import { PostDialogComponent } from './post-dialog/post-dialog.component';
 import { FormsModule } from '@angular/forms';
+import { ScullyLibModule } from '@scullyio/ng-lib';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { FormsModule } from '@angular/forms';
     BrowserAnimationsModule,
     MaterialModule,
     FlexLayoutModule,
-    FormsModule
+    FormsModule,
+    ScullyLibModule
   ],
   providers: [DataService, AuthService],
   bootstrap: [AppComponent]
