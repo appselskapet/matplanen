@@ -1,7 +1,12 @@
 <div>
   <div class="container">
     <br>
-    <div flex fxLayout="column" fxLayoutAlign="start center">
+    <div flex  fxLayoutAlign="center center" *ngIf="!auth.isAuthenticated()">
+      <mat-card class="card">
+      Logg inn for å bruke matplanen.
+      </mat-card>
+    </div>
+    <div flex fxLayout="column" fxLayoutAlign="start center" *ngIf="auth.isAuthenticated()">
       <mat-card class="card">
         <mat-card-title fxLayout.gt-xs="row" fxLayout.xs="column">
           Matplan
