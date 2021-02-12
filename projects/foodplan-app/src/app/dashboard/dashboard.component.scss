@@ -1,18 +1,20 @@
   .card {
     word-break: break-word;
-    padding: 5px;
+    margin: 3px;
     width: 80%;
+    min-width: 80%;
 
     &-settings {
       @extend .card;
-      width: 40%;
+      width: 25%;
+      min-width: 25%
     }
 
     &-dish {
       @extend .card;
       width: 60%;
+      min-width: 60%;
     }
-
   }
   
   .example-container {
@@ -23,13 +25,6 @@
     max-width: 80%;
   }
   
-  .day-of-week {
-    word-break: break-word;
-    max-width: 80%;
-    margin: auto;
-    padding: 5px;
-  }
-
   .mat-table {
     overflow: auto;
     max-height: 500px;

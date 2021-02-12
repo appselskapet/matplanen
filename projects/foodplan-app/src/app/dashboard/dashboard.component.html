@@ -1,9 +1,9 @@
 <div>
   <div class="container">
     <br>
-    <div flex  fxLayoutAlign="center center" *ngIf="!auth.isAuthenticated()">
+    <div flex fxLayoutAlign="center center" *ngIf="!auth.isAuthenticated()">
       <mat-card class="card">
-      Logg inn for å bruke matplanen.
+        Logg inn for å bruke matplanen.
       </mat-card>
     </div>
     <div flex fxLayout="column" fxLayoutAlign="start center" *ngIf="auth.isAuthenticated()">
@@ -18,16 +18,14 @@
           Trykk for å mixe!
         </mat-card-subtitle>
         <mat-card-content>
-          <div fxLayout="row" fxLayoutAlign="start center" class="day-of-week"
+          <div fxLayout="row" fxLayoutAlign="start"
             *ngFor="let dayOfWeek of dishesOfTheWeek">
-            <mat-card class="card mat-elevation-z8">
-              <div fxLayout="row" fxLayoutGap=5px>
               <mat-card class="card-dish">
                 <mat-card-title>
                   <h3>
                     {{ dayOfWeek.day }}
                   </h3>
-                </mat-card-title>  
+                </mat-card-title>
                 <mat-card-subtitle>
                   <h4 *ngIf="!dayOfWeek.isLeftOvers">{{ dayOfWeek.dish }}</h4>
                   <h4 *ngIf="dayOfWeek.isLeftOvers">Rester</h4>
@@ -42,13 +40,13 @@
                   <button mat-stroked-button (click)="findDish(dayOfWeek.day, 'fish')">Fisk</button>
                   <button mat-stroked-button (click)="findDish(dayOfWeek.day, 'vegetarian')">Vegetar</button>
                 </mat-card-content>
-              </mat-card>  
-
-            </div>
-            </mat-card>
+              </mat-card>
           </div>
         </mat-card-content>
       </mat-card>
+      <br>
+      <br>
+      <br>
     </div>
   </div>
 </div>
