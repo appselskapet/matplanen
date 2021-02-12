@@ -21,26 +21,23 @@
           <div fxLayout="row" fxLayoutAlign="start center" class="day-of-week"
             *ngFor="let dayOfWeek of dishesOfTheWeek">
             <mat-card class="card mat-elevation-z8">
-              <mat-card-title>
-                <h2>
-                  {{ dayOfWeek.day }}
-                  <a (click)="mixUpTheDishForTheDay(dayOfWeek.day)" type="button">
-                    <mat-icon class="icon-food">shuffle</mat-icon>
-                  </a>
-                </h2>
-              </mat-card-title>
-
               <div fxLayout="row" fxLayoutGap=5px>
               <mat-card class="card-dish">
                 <mat-card-title>
-                  <h2 *ngIf="!dayOfWeek.isLeftOvers">{{ dayOfWeek.dish }}</h2>
-                  <h2 *ngIf="dayOfWeek.isLeftOvers">Rester</h2>
-                </mat-card-title>
+                  <h3>
+                    {{ dayOfWeek.day }}
+                  </h3>
+                </mat-card-title>  
+                <mat-card-subtitle>
+                  <h4 *ngIf="!dayOfWeek.isLeftOvers">{{ dayOfWeek.dish }}</h4>
+                  <h4 *ngIf="dayOfWeek.isLeftOvers">Rester</h4>
+                </mat-card-subtitle>
               </mat-card>
 
               <mat-card class="card-settings ">
                 <mat-card-content>
                   <mat-checkbox (change)="setDayToLeftOvers(dayOfWeek.day, $event.checked)">Rester</mat-checkbox><br>
+                  <button mat-stroked-button (click)="mixUpTheDishForTheDay(dayOfWeek.day)">Miks</button>
                   <button mat-stroked-button (click)="findDish(dayOfWeek.day, 'meat')">Kjøtt</button>
                   <button mat-stroked-button (click)="findDish(dayOfWeek.day, 'fish')">Fisk</button>
                   <button mat-stroked-button (click)="findDish(dayOfWeek.day, 'vegetarian')">Vegetar</button>
