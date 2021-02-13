@@ -18,11 +18,10 @@ export class DashboardComponent implements OnInit {
   constructor(private dataService: DataService,
     public auth: AuthService,
     public dialog: MatDialog) {
-  }
+    }
 
   ngOnInit(): void {
     this.mixUpTheDishesForTheWeek();
-    console.log(this.dishesOfTheWeek)
   }
 
   makeLeftOvers: boolean = false;

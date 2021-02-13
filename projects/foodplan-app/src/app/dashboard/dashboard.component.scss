@@ -1,20 +1,47 @@
   .card {
     word-break: break-word;
-    margin: 3px;
-    width: 80%;
-    min-width: 80%;
-
-    &-settings {
-      @extend .card;
-      width: 25%;
-      min-width: 25%
-    }
+    width: 90%;
+    min-width: 90%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin: 1em 0 1em 0;
 
     &-dish {
       @extend .card;
-      width: 60%;
-      min-width: 60%;
+      padding-top: 2px;
+      padding-bottom: 0;
+      margin: 0 0 2px 0;      
+      }
+  }
+
+  .button {
+    border-radius: 13px;
+
+    &-settings {
+      @extend .button;
+      padding: 0 !important;
+      margin-left: 2px !important;
+      margin-right: 2px !important;
+      margin-bottom: 2px !important;
+      min-width: 48px !important;
+      line-height: 1.5em;
     }
+  }
+
+  .settings-text {
+    font-size: 12px !important;
+  }
+
+  .settings-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .settings-row {
+    margin-bottom: 2px;
+  }
+  .settings-element {
+    margin-right: 1em;
   }
   
   .example-container {

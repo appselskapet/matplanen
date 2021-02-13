@@ -1,26 +1,24 @@
 <div>
   <div class="container">
     <br>
-    <div flex fxLayoutAlign="center center" *ngIf="!auth.isAuthenticated()">
-      <mat-card class="card">
-        Logg inn for å bruke matplanen.
+    <div fxFlex fxLayoutAlign="center center" *ngIf="!auth.isAuthenticated()">
+      <mat-card class="card" fxLayoutAlign="center">
+        <h2><a (click)="auth.login()">
+          Logg inn</a> for å bruke matplanen.</h2>
       </mat-card>
     </div>
-    <div flex fxLayout="column" fxLayoutAlign="start center" *ngIf="auth.isAuthenticated()">
+    <div fxFlex fxLayout="column" fxLayoutAlign="start center" *ngIf="auth.isAuthenticated()">
       <mat-card class="card">
-        <mat-card-title fxLayout.gt-xs="row" fxLayout.xs="column">
-          Matplan
-          <a (click)="mixUpTheDishesForTheWeek()" type="button">
-            <mat-icon class="icon-food">shuffle</mat-icon>
-          </a>
+        <mat-card-title fxLayout="row" fxLayoutAlign="start center">
+          <div fxFlex>Din matplan</div>
+          <br>
+          <button class="button" mat-raised-button color="primary" (click)="mixUpTheDishesForTheWeek()">Miks
+            alle</button>
         </mat-card-title>
-        <mat-card-subtitle>
-          Trykk for å mixe!
-        </mat-card-subtitle>
-        <mat-card-content>
-          <div fxLayout="row" fxLayoutAlign="start"
-            *ngFor="let dayOfWeek of dishesOfTheWeek">
-              <mat-card class="card-dish">
+        <mat-card-content fxLayout="column">
+          <div fxLayout="row" *ngFor="let dayOfWeek of dishesOfTheWeek">
+            <mat-card fxFlex class="card-dish" fxLayout="row">
+              <div fxFlex>
                 <mat-card-title>
                   <h3>
                     {{ dayOfWeek.day }}
@@ -30,23 +28,29 @@
                   <h4 *ngIf="!dayOfWeek.isLeftOvers">{{ dayOfWeek.dish }}</h4>
                   <h4 *ngIf="dayOfWeek.isLeftOvers">Rester</h4>
                 </mat-card-subtitle>
-              </mat-card>
-
-              <mat-card class="card-settings ">
-                <mat-card-content>
-                  <mat-checkbox (change)="setDayToLeftOvers(dayOfWeek.day, $event.checked)">Rester</mat-checkbox><br>
-                  <button mat-stroked-button (click)="mixUpTheDishForTheDay(dayOfWeek.day)">Miks</button>
-                  <button mat-stroked-button (click)="findDish(dayOfWeek.day, 'meat')">Kjøtt</button>
-                  <button mat-stroked-button (click)="findDish(dayOfWeek.day, 'fish')">Fisk</button>
-                  <button mat-stroked-button (click)="findDish(dayOfWeek.day, 'vegetarian')">Vegetar</button>
-                </mat-card-content>
-              </mat-card>
+              </div>
+              <div fxFlex></div>
+              <div fxFlex class="settings-container" fxLayout="column" fxLayoutAlign="flex-start flex-end">
+                <div fxFlex class="settings-row" fxLayout="row" fxLayoutAlign="flex-end center">
+                  <mat-checkbox class="settings-element" (change)="setDayToLeftOvers(dayOfWeek.day, $event.checked)">Rester</mat-checkbox>
+                  <button class="button-settings" mat-raised-button color="primary"
+                    (click)="mixUpTheDishForTheDay(dayOfWeek.day)"><span class="settings-text">Miks</span></button>
+                </div>
+                <div fxFlex fxLayout="row" fxLayoutAlign="flex-end center">
+                  <button class="button-settings" mat-raised-button (click)="findDish(dayOfWeek.day, 'meat')"><span
+                      class="settings-text">Kjøtt</span></button>
+                  <button class="button-settings" mat-raised-button (click)="findDish(dayOfWeek.day, 'fish')"><span
+                      class="settings-text">Fisk</span></button>
+                  <button class="button-settings" mat-raised-button
+                    (click)="findDish(dayOfWeek.day, 'vegetarian')"><span class="settings-text">Vegetar</span></button>
+                </div>
+                <div fxFlex></div>
+              </div>
+            </mat-card>
           </div>
         </mat-card-content>
       </mat-card>
-      <br>
-      <br>
-      <br>
+      <div fxFlex="10"></div>
     </div>
   </div>
 </div>
