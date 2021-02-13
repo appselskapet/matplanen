@@ -7,7 +7,7 @@
           Logg inn</a> for å bruke matplanen.</h2>
       </mat-card>
     </div>
-    <div fxFlex fxLayout="column" fxLayoutAlign="start center" *ngIf="auth.isAuthenticated()">
+    <div fxFlex fxLayout="column" *ngIf="auth.isAuthenticated()">
       <mat-card class="card">
         <mat-card-title fxLayout="row" fxLayoutAlign="start center">
           <div fxFlex>Din matplan</div>
@@ -29,14 +29,13 @@
                   <h4 *ngIf="dayOfWeek.isLeftOvers">Rester</h4>
                 </mat-card-subtitle>
               </div>
-              <div fxFlex></div>
               <div fxFlex class="settings-container" fxLayout="column" fxLayoutAlign="flex-start flex-end">
-                <div fxFlex class="settings-row" fxLayout="row" fxLayoutAlign="flex-end center">
+                <div fxFlex class="settings-row" fxLayout="row" fxLayoutAlign="flex-end  flex-start">
                   <mat-checkbox class="settings-element" (change)="setDayToLeftOvers(dayOfWeek.day, $event.checked)">Rester</mat-checkbox>
                   <button class="button-settings" mat-raised-button color="primary"
                     (click)="mixUpTheDishForTheDay(dayOfWeek.day)"><span class="settings-text">Miks</span></button>
                 </div>
-                <div fxFlex fxLayout="row" fxLayoutAlign="flex-end center">
+                <div fxFlex fxLayout="row" fxLayoutAlign="flex-end flex-start">
                   <button class="button-settings" mat-raised-button (click)="findDish(dayOfWeek.day, 'meat')"><span
                       class="settings-text">Kjøtt</span></button>
                   <button class="button-settings" mat-raised-button (click)="findDish(dayOfWeek.day, 'fish')"><span
