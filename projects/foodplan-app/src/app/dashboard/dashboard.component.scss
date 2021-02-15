@@ -12,6 +12,13 @@
       padding-bottom: 0;
       margin: 0 0 2px 0;      
       }
+    
+    &-settings {
+      @extend .card;
+      padding: 2px;
+      min-width: unset;
+      width: unset;
+    }
   }
 
   .button {
@@ -33,12 +40,11 @@
   }
 
   .settings-container {
-    display: flex;
-    border-style: none;
+    border-style: dashed;
     border-width: thin;
-    border-color: gray;
+    border-color: grey;
     border-radius: 5px;
-    margin-bottom: 40px;
+    margin-bottom: 5px;
   }
 
   .settings-row {
@@ -56,6 +62,10 @@
     max-width: 80%;
   }
   
+  .dish-title {
+    min-height: 3em;
+  }
+
   .mat-table {
     overflow: auto;
     max-height: 500px;
