@@ -34,7 +34,11 @@
 
   .settings-container {
     display: flex;
-    flex-direction: column;
+    border-style: none;
+    border-width: thin;
+    border-color: gray;
+    border-radius: 5px;
+    margin-bottom: 40px;
   }
 
   .settings-row {
