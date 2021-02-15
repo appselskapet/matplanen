@@ -13,30 +13,31 @@
           <div fxLayout="row" *ngFor="let dayOfWeek of dishesOfTheWeek">
             <mat-card fxFlex="1" class="card-dish" fxLayout="row">
               <div fxFlex>
-                <mat-card-title>
-                  <h3>
-                    {{ dayOfWeek.day }}
-                  </h3>
-                </mat-card-title>
+                <div fxLayoutAlign="row">
+                  <mat-card-title fxFlex>
+                    <h3>
+                      {{ dayOfWeek.day }}
+                    </h3>
+                  </mat-card-title>  
+                  <div fxLayout="column" fxLayoutAlign="flex-start flex-end">
+                    <div class="settings-row" fxLayout="row" fxLayoutAlign="flex-end  flex-start">
+                      <button class="button-settings" mat-raised-button (click)="findDish(dayOfWeek.day, 'meat')"><span
+                          class="settings-text">Kjøtt</span></button>
+                      <button class="button-settings" mat-raised-button (click)="findDish(dayOfWeek.day, 'fish')"><span
+                          class="settings-text">Fisk</span></button>
+                      <button class="button-settings" mat-raised-button
+                        (click)="findDish(dayOfWeek.day, 'vegetarian')"><span class="settings-text">Vegetar</span></button>
+                        <mat-checkbox class="settings-element" (change)="setDayToLeftOvers(dayOfWeek.day, $event.checked)">Rester</mat-checkbox>
+                        <button class="button-settings" mat-raised-button color="primary"
+                          (click)="mixUpTheDishForTheDay(dayOfWeek.day)"><span class="settings-text">Miks</span></button>
+                      </div>
+                  </div>
+    
+                </div>
                 <mat-card-subtitle>
                   <h4 *ngIf="!dayOfWeek.isLeftOvers">{{ dayOfWeek.dish }}</h4>
                   <h4 *ngIf="dayOfWeek.isLeftOvers">Rester</h4>
                 </mat-card-subtitle>
-              </div>
-              <div class="settings-container" fxLayout="column" fxLayoutAlign="flex-start flex-end">
-                <div class="settings-row" fxLayout="row" fxLayoutAlign="flex-end  flex-start">
-                  <mat-checkbox class="settings-element" (change)="setDayToLeftOvers(dayOfWeek.day, $event.checked)">Rester</mat-checkbox>
-                  <button class="button-settings" mat-raised-button color="primary"
-                    (click)="mixUpTheDishForTheDay(dayOfWeek.day)"><span class="settings-text">Miks</span></button>
-                </div>
-                <div fxLayout="row" fxLayoutAlign="flex-end flex-start">
-                  <button class="button-settings" mat-raised-button (click)="findDish(dayOfWeek.day, 'meat')"><span
-                      class="settings-text">Kjøtt</span></button>
-                  <button class="button-settings" mat-raised-button (click)="findDish(dayOfWeek.day, 'fish')"><span
-                      class="settings-text">Fisk</span></button>
-                  <button class="button-settings" mat-raised-button
-                    (click)="findDish(dayOfWeek.day, 'vegetarian')"><span class="settings-text">Vegetar</span></button>
-                </div>
               </div>
             </mat-card>
           </div>
