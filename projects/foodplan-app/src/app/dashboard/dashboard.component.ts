@@ -7,7 +7,6 @@ import { Observable } from 'rxjs/Observable';
 import { AuthService } from '../auth.service';
 import { MatDialog } from '@angular/material/dialog';
 import { PostDialogComponent } from '../post-dialog/post-dialog.component';
-import { element } from 'protractor';
 
 @Component({
   selector: 'appselskapet-dashboard',
