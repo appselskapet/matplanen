@@ -1,0 +1,1283 @@
+{ "collection": [
+        {
+            "name": "Ribbe, rødkålssalat, rosenkål, sauce, brune kartofler, normal kartofler, tyttebær",
+			"ingredients": [],
+			"category": "Meat"
+        },
+        {
+            "name": "12 øres",
+			"ingredients": [],
+			"category": "Vegetarian"
+        },
+        {
+            "name": "Pizza med Æble -skinke -gorgonzola el. Løgmermelade - gorgonzola, skinke",
+			"ingredients": [],
+			"category": "Meat"
+        },
+        {
+            "name": "Eggerøre",
+			"ingredients": [],
+			"category": "Vegetarian"
+        },
+        {
+            "name": "Egg og rekesmørbrød",
+			"ingredients": [],
+			"category": "Vegetarian"
+        },
+        {
+            "name": "Cæsar salat",
+			"ingredients": [],
+			"category": "Vegetarian"
+        },
+        {
+            "name": "Æggekage med bacon, purløg og tomat, aioli",
+			"ingredients": [],
+			"category": "Meat"
+        },
+        {
+            "name": "Æggekage med bacon, tomat, aioli, purløg",
+			"ingredients": [],
+			"category": "Meat"
+        },
+        {
+            "name": "Ertesuppe",
+			"ingredients": [],
+			"category": "Vegetarian"
+        },
+        {
+            "name": "Ertesuppe, med ærteskud, cremefraiche, Kogte æg, pølser",
+			"ingredients": [],
+			"category": "Meat"
+        },
+        {
+            "name": "Pestobakt torsk, båtpoteter, tomatsalat",
+			"ingredients": [],
+			"category": "Fish"
+        },
+        {
+            "name": "Bagte kartofler",
+			"ingredients": [],
+			"category": "Vegetarian"
+        },
+        {
+            "name": "Bagte kartofler med rejer, dild, grønt",
+			"ingredients": [],
+			"category": "Fish"
+        },
+        {
+            "name": "Bahn mi",
+			"ingredients": [],
+			"category": "Meat"
+        },
+        {
+            "name": "Banan kage",
+			"ingredients": [],
+			"category": "Dessert"
+        },
+        {
+            "name": "Burger",
+			"ingredients": [],
+			"category": "Meat"
+        },
+        {
+            "name": "Blomkålscouscous, tzatziki, stegte grøntsager, oliven, kylling",
+			"ingredients": [],
+			"category": "Meat"
+        },
+        {
+            "name": "Blomkåls pizza",
+			"ingredients": [],
+			"category": "Vegetarian"
+        },
+        {
+            "name": "Blomkåls suppe",
+			"ingredients": [],
+			"category": "Vegetarian"
+        },
+        {
+            "name": "Blomkålssuppe med rundstykker",
+			"ingredients": [],
+			"category": "Vegetarian"
+        },
+        {
+            "name": "Mousakka",
+			"ingredients": [],
+			"category": "Meat"
+        },
+        {
+            "name": "Bolognese, basilikum og squash",
+			"ingredients": [],
+			"category": "Meat"
+        },
+        {
+            "name": "Bolognese, spaghetti og salat",
+			"ingredients": [],
+			"category": "Meat"
+        },
+        {
+            "name": "Bulgur hummus tzatziki oliven feta aubergiberuller",
+			"ingredients": [],
+			"category": "Vegetarian"
+        },
+        {
+            "name": "Burger med søtpotetfries",
+			"ingredients": [],
+			"category": "Meat"
+        },
+        {
+            "name": "Burger med fries",
+			"ingredients": [],
+			"category": "Meat"
+        },
+        {
+            "name": "Burger med brioche brød",
+			"ingredients": [],
+			"category": "Meat"
+        },
+        {
+            "name": "Burger - kylling, coleslaw, råsyltet agurker, fritter",
+			"ingredients": [],
+			"category": "Meat"
+        },
+        {
+            "name": "Burger med torsk, syltet agurker",
+			"ingredients": [],
+			"category": "Fish"
+        },
+        {
+            "name": "Cabonara",
+			"ingredients": [],
+			"category": "Meat"
+        },
+        {
+            "name": "Chili con carne og tomatsalat",
+			"ingredients": [],
+			"category": "Meat"
+        },
+        {
+            "name": "Chili con carne, salat og ostechips",
+			"ingredients": [],
+			"category": "Meat"
+        },
+        {
+            "name": "Blomkåls couscous med hummus, tzatziki, bagt aubergine",
+			"ingredients": [],
+			"category": "Vegetarian"
+        },
+        {
+            "name": "Chokoladekage",
+			"ingredients": [],
+			"category": "Dessert"
+        },
+        {
+            "name": "Coq au vain med kartoffelmos",
+			"ingredients": [],
+			"category": "Meat"
+        },
+        {
+            "name": "Couscous med kylling, søtpotet, squash, aubergine og gulrøtter",
+			"ingredients": [],
+			"category": "Meat"
+        },
+        {
+            "name": "Daal",
+			"ingredients": [],
+			"category": "Vegetarian"
+        },
+        {
+            "name": "Falafel, humus, yoghurt, salat",
+			"ingredients": [],
+			"category": "Vegetarian"
+        },
+        {
+            "name": "Fiskefrikadeller, tyttebær, ærtepure, revet gulerødder, små kartofler",
+			"ingredients": [],
+			"category": "Fish"
+        },
+        {
+            "name": "Fish & chips med ærtepure, ovnbagte kartofler og mayo",
+			"ingredients": [],
+			"category": "Fish"
+        },
+        {
+            "name": "Fiskefrikadeller",
+			"ingredients": [],
+			"category": "Fish"
+        },
+        {
+            "name": "Fiskekaker og laks - ærter, bagte rodfrugter broccoli",
+			"ingredients": [],
+			"category": "Fish"
+        },
+        {
+            "name": "Fiskefrikadeller",
+			"ingredients": [],
+			"category": "Fish"
+        },
+        {
+            "name": "Fiskefrikadeller kartofler, ærtepure, rugbrød, grønt",
+			"ingredients": [],
+			"category": "Fish"
+        },
+        {
+            "name": "Fiskefrikadeller med asparges, revet gulerod, ærtepure, æggwsmør",
+			"ingredients": [],
+			"category": "Fish"
+        },
+        {
+            "name": "Fiskefrikadeller salat med laks og rygeost creme",
+			"ingredients": [],
+			"category": "Fish"
+        },
+        {
+            "name": "Fiskefrikadeller, ærterpure, rosenkål, både kartofler",
+			"ingredients": [],
+			"category": "Fish"
+        },
+        {
+            "name": "Fiskefrikadeller, agurkesalat, små kartofler, ærtepure",
+			"ingredients": [],
+			"category": "Fish"
+        },
+        {
+            "name": "Fiskekaker, tyttebær , kartofler, ærtepure, citron",
+			"ingredients": [],
+			"category": "Fish"
+        },
+        {
+            "name": "Fisketaco",
+			"ingredients": [],
+			"category": "Fish"
+        },
+        {
+            "name": "Fladbrød - zuchinni balls - græsk salat",
+			"ingredients": [],
+			"category": "Vegetarian"
+        },
+        {
+            "name": "Foccacia",
+			"ingredients": [],
+			"category": "Sidedish"
+        },
+        {
+            "name": "Foccacia sandwich m skinke, tomat, salat, pesto, Mayo, tørret tomat",
+			"ingredients": [],
+			"category": "Meat"
+        },
+        {
+            "name": "Forårsruller",
+			"ingredients": [],
+			"category": "Meat"
+        },
+        {
+            "name": "Frugt - melon, blommer, druer, pære",
+			"ingredients": [],
+			"category": "dessert"
+        },
+        {
+            "name": "Fyldte peberfrugter, tzatziki, salat",
+			"ingredients": [],
+			"category": "vegetarian"
+        },
+        {
+            "name": "Hamburgerrygg",
+			"ingredients": [],
+			"category": "meat"
+        },
+        {
+            "name": "Græsk salat",
+			"ingredients": [],
+			"category": "vegetarian"
+        },
+        {
+            "name": "Græskarsuppe med brød",
+			"ingredients": [],
+			"category": "vegetarian"
+        },
+        {
+            "name": "Græskarsuppe - spegeskinke, ost, græskarkerner",
+			"ingredients": [],
+			"category": "meat"
+        },
+        {
+            "name": "Græskarsuppe og brød",
+			"ingredients": [],
+			"category": "vegetarian"
+        },
+        {
+            "name": "Græskarsuppe og rundstykker",
+			"ingredients": [],
+			"category": "vegetarian"
+        },
+        {
+            "name": "Sheperds pie, spejlæg",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Lasagne og foccacia",
+			"ingredients": [],
+			"category": "meat"
+        },
+        {
+            "name": "Grillet laks",
+			"ingredients": [],
+			"category": "meat"
+        },
+        {
+            "name": "Grillet pølse, majs, Kyllingespydpeberfrugt, asparges",
+			"ingredients": [],
+			"category": "meat"
+        },
+        {
+            "name": "Grille - pølser",
+			"ingredients": [],
+			"category": "meat"
+        },
+        {
+            "name": "Grille koteletter, Cole slaw, grønt",
+			"ingredients": [],
+			"category": "meat"
+        },
+        {
+            "name": "Grille pølser, grøntsagsspyd, majs, coleslaw, vandmelon salat",
+			"ingredients": [],
+			"category": "meat"
+        },
+        {
+            "name": "Grøntsager - sukkerærter, peberfrugt, tomater, salat",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Grøntsags lasagne salat",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Gulerødssuppe m foccacia brød",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Gulerodssuppe med ris",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Gulerodsuppe rundstykker",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Havregrød",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Havregrød og cornflakes",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Havregrynskager",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Helstegt kylling - saltbagt selleri, karamelliseret løg, Waldorf salat, stegte svampe",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Hjemmelavet sandwich - skinke, salat, syltet rødløg, tomat, tørrer tomater",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Hotdog, tomatrelish, agurkesalat,",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Hummus, tzatziki, oliven, surdejs pandebrød, aubergine, peberfrugter, tomatsalat med feta, kålsalat",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Indisk",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+ 
+            "name": "Julebord, varmleverpostej, varmrøget laks,",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Kage",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Kanelsnegle",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Kantareloast, oliven, artiskokker, stegt surdejs starter, tomatsalat, sprød kylling,",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Kartoffel porre supperundstykker",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Kartoffelmos med gullasch",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Kødpålæg",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Kogt hamburgerryg, broccolisalat , grønne bønner, tomat salat",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Kogt svinekam, Broccoli salat, timian gulerødder, hvidløgsbænner,",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Kogt svinekam, svampesauce, hvislødsbønner, timian gulerødder, ærtepure",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Kogt svinkam - grønt",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Koteletter",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Kvelds og kage",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Kylling",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Kylling i kokosmælk, thai salat, ris, forårsruller",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Kylling, forårsruller, thai salat",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Kyllinge nachos",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Kyllinge nachos -",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Kyllingeburger",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Laks agurk, rømme, små kartofler",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Laks, dampet blomkål, kartofler, rømmer lasagne og salat",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Laks, små kartofler, agurker salat, rømme",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Laks, små kartofler, tzatziki, grøn salat",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Laksegade madder, m advocado, gnavegrønt, rugbrød og mayo",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Lapskaus",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Lapskaus m fladbrød",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Lasagne",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Lasagne grøntsags",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Lasagne og salat",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Linsesuppe",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Linsesuppe rundstykker",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Makrel i tomat",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Morelller",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Mousakka",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Mousakka - græsk salat",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Mousakkast",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Mulligatawny",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Mulligatawny suppe",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Nektariner q.",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Nocoise -",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Nøddemazarin",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Nøddetærte",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Nudler -stegte nudler - reje chips - salat",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Omelet",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Pandekage med hindbær skum",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Pandekager",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Pappadums",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Paprika",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Pasta",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Pasta m tomat sauce",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Pasta m tomatsauce",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Pasta m tomatsovs",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Pasta m tomatsovs og foccacia",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Pasta med tomat sauce",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Pasta med tomat sovs, foccacia,",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Pasta med tomatsauce",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Pasta med tomatsauce, rucola,",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Pasta med.tomat sauce stegt squash",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Pasta tomat sauce",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Pasta, foccacia",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Pepperoni",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Pepperoni - ananas",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Pinnekjøtt, medisterkaker, kålrabi",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Pita brød med kylling, dressing, hummus",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Pizza",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Pizza boller",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Pizza Karotffel-aioli-bacon - æble",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Pizza kartoffel, bacon, æble, aioli",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Pizza med pepperoni, spegeskinke og rucola, kartofler",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Pizza rester i køleskabet og 12 øres, æg og reje madder på rugbrød",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Pizzaboller m grønt",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Pizzasnurrer",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Pølsehorn",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Pølser til vennegruppe og rester",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Pølser, råsyltet agurker, chili, ketchup, ristet løg, tomat salsa",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Pulled kylling, fladbrød, hummus",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Quesedillas",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Raita chutney",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Ramen, nudler, champignoner, baby majs, gulerødder, forårsløg",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Rejer",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Rejer krabber, citron, avocado, agurk",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Rejer m brød, dild, avocado, tunsalat",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Rejer og krabber",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Rejer, æg, tunsalat, små kartofler, asparges",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Rejer, ostebrød, avocadoc",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Rester",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Ribbe, rosenkål, rødkålssalat, brune kartofler,",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Ris salat mad kål - nepe",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Risengrød - fladbrød, ost og kikssheperds pie salat",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Risengrød og spekemat",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Risgrød og cornflakes",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Risgrøt",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Risgrøt og rundstykker",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Risotto",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Ristet valnødder",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Rødspætte, små kartofler, ærter, tyttebær , råsyltet agurker , persillesovs",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Røget laks, kartofler (ungerne) asparges, kål, syltet agurker, rømme",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Røget laks,agurker, asparges,",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Røget svinekam , grønt",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Røget svinekam, hvidløgsbønner, båd kartoffel, svampesauce",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Rømme",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Rösti, laks, avokado, creme fraiche, rødløg, dild",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Rugbrød",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Rugbrød - Makrel i tomat, æg -",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Rugbrød m pålæg, makrel, fiskefrikadeller, varm leverpostei",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Rugbrød med æg eller makrel",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Rugbrød med makrel, æg eller tun",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Rundstykker",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Rundstykker m æg",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Rundstykker og risgrøt",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Rundstykker rig gulerodskage",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Salat med rejer,",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Salat nicoise",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Salat: rødkål, appelsin, granat æble, rosenkål, persille",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Shakshuka",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Shepards pie, grøn salat",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Sheperds pigrillet kylling",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Sheperdspie salat",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Skabet: frokost blanding",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Skagen toast",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Spaghetti bolognese",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Spaghetti carbonara",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Spaghetti m tomat sauce",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Spaghetti med kødboller",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Spaghetti med svampe, spegeskinke og rucola",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Spaghetti med tomat sauce",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Spegeskinke",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Speltbrød",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Stegt torsk - asparges - hollandaise, grønnrbønner, små kartofler",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Stegt torsk, hollandaise, brocolisalat, ærtepure",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Suppe rester rundstykker",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Surdejsbrød",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Surdejspizza - Kartoffel, æble, baconSiciliana, tomat",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Sushi",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Syltetøj",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Taco",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Taco m bønner",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Taco m fisk og kylling",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Taco med friteret torsk",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Taco med paneret torsk og kød",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Taco sk på kød",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Tapas - scampi, tomat salat med parmesan og basilikum, Ostechips, oliven, Grønt med dip, evt æggekage med svampe",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Tapas: oliven, ost, bønner med bacon squash frikadeller, blomkålspure",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Thai",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Thai nudel suppe m forårsruller",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Thai og forårsruller",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Tikkamasala",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Tikkamasala, chutney, raita, ris, salat",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Tikkamasala, pappadums, raita, samosa,",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Tomat salat, oliven, pasta ramen, broccoli, nudler, æg, kød, champignon",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Tomat suppe",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Tomat suppe rundstykker",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Tomat suppe med stegt squash, foccacia, pesto, cremefraiche",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Tomatsuppe",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Tomatsuppe rundstykker",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Tomatsuppe croutoner",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Tomatsuppe og foccacia rundstykker",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Tomatsuppe og pandekager",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Tomatsuppe, pølser, creme fraiche, ostebrød",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Tomatsuppe ris og karry sovs",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Torsk",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Torsk kartofler hollandaise",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Torsk m hollandaise, grønt",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Torsk, ærtepure, .",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Torsk, kartoffelpure,æggesmør,",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Torsk, kartofler, gulerødder, ærtepure,",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Torsk, timian gulerødder, bacon smørcreme ærtepure tomatsuppe",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Torske burger, sød poteter, coleslaw, agurker",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Tunsalat",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Tunsalat - rejer æg -",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Tunsalat - ungerne fiskefrikadeller",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Tunsalat, varm røget laks, brød, grønt",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Tyrkisk pizza - m salat, oliven og feta",
+			"ingredients": [],
+			"category": ""
+        },
+        {
+            "name": "Vafler",
+			"ingredients": [],
+			"category": ""
+        }
+    ]}
